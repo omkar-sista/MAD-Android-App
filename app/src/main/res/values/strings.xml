@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Jira Clone</string>
+    <string name="login_link_text">Already have an account? <font color="#0095f7">Log In</font></string>
+    <string name="signup_link_text">Don\'t have an account? <font color="#0095f7">Sign Up</font></string>
+</resources>

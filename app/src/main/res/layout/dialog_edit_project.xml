@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editProjectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Name" />
+
+    <EditText
+        android:id="@+id/editProjectDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Description"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/saveProjectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

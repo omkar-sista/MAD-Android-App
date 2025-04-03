@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxStrokeColor">@android:color/transparent</item> <!-- Remove border color -->
+        <item name="boxStrokeWidth">0dp</item> <!-- Remove border width -->
+        <item name="hintTextColor">@color/black</item> <!-- Hint text color -->
+        <item name="android:textColorHint">@color/black</item> <!-- Ensures the hint color is applied -->
+        <item name="android:background">@drawable/rounded_corner</item> <!-- Apply the drawable -->
+    </style>
+
+    <!-- In styles.xml -->
+    <style name="CustomBottomNavView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@null</item>
+        <item name="itemTextColor">@null</item>
+        <item name="itemRippleColor">@null</item> <!-- Disable ripple effect -->
+    </style>
+
+</resources>
+

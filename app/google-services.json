@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "699865305733",
+    "firebase_url": "https://jiraclone-487a4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "jiraclone-487a4",
+    "storage_bucket": "jiraclone-487a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699865305733:android:b93e4ad7e192875a890fec",
+        "android_client_info": {
+          "package_name": "com.example.jiraclone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLMKgYucn5RQoNuc3-YCeqMZr8RFgyVrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
